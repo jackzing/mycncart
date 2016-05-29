@@ -6,7 +6,7 @@ define('HTTP_SERVER', 'http://buy.do4i.com/');
 define('HTTPS_SERVER', 'http://buy.do4i.com/');
 
 //project root
-define('PRO_ROOT','/Users/jgao/gitpro/zing/');
+define('PRO_ROOT', realpath('./').'/');
 
 // DIR
 define('DIR_APPLICATION', PRO_ROOT . 'catalog/');

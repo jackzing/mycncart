@@ -8,7 +8,7 @@ define('HTTPS_SERVER', 'http://buy.do4i.com/admin/');
 define('HTTPS_CATALOG', 'http://buy.do4i.com/');
 
 //project root
-define('PRO_ROOT','/Users/jgao/gitpro/zing/');
+define('PRO_ROOT', realpath('../').'/');
 
 // DIR
 define('DIR_APPLICATION', PRO_ROOT . 'admin/');
