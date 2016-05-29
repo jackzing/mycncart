@@ -1,31 +1,31 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://localhost/mycncart/admin/');
-define('HTTP_CATALOG', 'http://localhost/mycncart/');
+define('HTTP_SERVER', 'http://buy.do4i.com/admin/');
+define('HTTP_CATALOG', 'http://buy.do4i.com/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://localhost/mycncart/admin/');
-define('HTTPS_CATALOG', 'http://localhost/mycncart/');
+define('HTTPS_SERVER', 'http://buy.do4i.com/admin/');
+define('HTTPS_CATALOG', 'http://buy.do4i.com/');
 
 // DIR
-define('DIR_APPLICATION', 'C:/wamp/www/mycncart/admin/');
-define('DIR_SYSTEM', 'C:/wamp/www/mycncart/system/');
-define('DIR_IMAGE', 'C:/wamp/www/mycncart/image/');
-define('DIR_LANGUAGE', 'C:/wamp/www/mycncart/admin/language/');
-define('DIR_TEMPLATE', 'C:/wamp/www/mycncart/admin/view/template/');
-define('DIR_CONFIG', 'C:/wamp/www/mycncart/system/config/');
-define('DIR_CACHE', 'C:/wamp/www/mycncart/system/storage/cache/');
-define('DIR_DOWNLOAD', 'C:/wamp/www/mycncart/system/storage/download/');
-define('DIR_LOGS', 'C:/wamp/www/mycncart/system/storage/logs/');
-define('DIR_MODIFICATION', 'C:/wamp/www/mycncart/system/storage/modification/');
-define('DIR_UPLOAD', 'C:/wamp/www/mycncart/system/storage/upload/');
-define('DIR_CATALOG', 'C:/wamp/www/mycncart/catalog/');
+define('DIR_APPLICATION', '/Users/jgao/gitpro/zing/admin/');
+define('DIR_SYSTEM', '/Users/jgao/gitpro/zing/system/');
+define('DIR_IMAGE', '/Users/jgao/gitpro/zing/image/');
+define('DIR_LANGUAGE', '/Users/jgao/gitpro/zing/admin/language/');
+define('DIR_TEMPLATE', '/Users/jgao/gitpro/zing/admin/view/template/');
+define('DIR_CONFIG', '/Users/jgao/gitpro/zing/system/config/');
+define('DIR_CACHE', '/Users/jgao/gitpro/zing/system/storage/cache/');
+define('DIR_DOWNLOAD', '/Users/jgao/gitpro/zing/system/storage/download/');
+define('DIR_LOGS', '/Users/jgao/gitpro/zing/system/storage/logs/');
+define('DIR_MODIFICATION', '/Users/jgao/gitpro/zing/system/storage/modification/');
+define('DIR_UPLOAD', '/Users/jgao/gitpro/zing/system/storage/upload/');
+define('DIR_CATALOG', '/Users/jgao/gitpro/zing/catalog/');
 
 // DB
-define('DB_DRIVER', 'mysqli');
-define('DB_HOSTNAME', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
-define('DB_DATABASE', 'mycncart_master');
+define('DB_DRIVER', 'mpdo');
+define('DB_HOSTNAME', '127.0.0.1');
+define('DB_USERNAME', 'jackzing2008');
+define('DB_PASSWORD', '123456');
+define('DB_DATABASE', 'opencart');
 define('DB_PORT', '3306');
 define('DB_PREFIX', 'mcc_');
