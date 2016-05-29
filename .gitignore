@@ -1,2 +1,4 @@
 system/storage/cache/
-install/*
+image/cache/
+system/storage/logs/
+system/storage/logs/openbay.log
